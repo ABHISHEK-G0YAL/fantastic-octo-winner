@@ -7,8 +7,8 @@ url: "https://abhishek-g0yal.github.io" # the base hostname & protocol for your 
 baseurl: "/fantastic-octo-winner" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: About Me
-      url: /about
+    # - text: About Me
+    #   url: /about
     # - text: Blog
     #   url: /blog
     # - text: Gallery
@@ -80,7 +80,7 @@ flickr_username: johndoe
 
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: abhishek_g0yal
 
 # syntax highlighter
 markdown: kramdown
