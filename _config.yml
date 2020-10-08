@@ -4,33 +4,17 @@ description: >- # this means to ignore newlines until "baseurl:"
   Motivated individual with strong work ethic and ability to work independently. Strong organizational and team collaboration skills with experience in improving processes.
 
 url: "https://abhishek-g0yal.github.io/" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "fantastic-octo-winner/" # the subpath of your site, e.g. /blog
-
-urls:
-    # - text: About Me
-    #   url: /about
-    # - text: Blog
-    #   url: /blog
-    # - text: Gallery
-    #   url: /gallery
-    # - text: Shop
-    #   url : /shop
-    # - text: Contact Me
-    #   url : /contact
-    # - text: Styleguide
-    #   url: /styleguide
-    # - text: Get Started
-    #   url: /get-started
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 
 # Edit these details
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
+author: Abhishek Goyal
+author_bio: Hi, my name is Abhishek Goyal. I built this site using devlopr-jekyll :D
+author_email: "abhishek252167@gmail.com"
 author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
+author_website_url: "https://abhishek_g0yal.github.io"
+# typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
 
 author_work_experiences:
             - company_name: Google
@@ -67,16 +51,16 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+twitter_username: abhishek_g0yal
+github_username:  abhishek-g0yal
+facebook_username: abhishek.g0yal
+linkedin_username: abhishek-g0yal
+behance_username: abhishek_g0yal
+instagram_username: abhishek.g0yal
+medium_username: abhishek_g0yal
+telegram_username: abhishek_g0yal
+dribbble_username: abhishek_g0yal
+flickr_username: abhishek_g0yal
 
 
 # wakatime username (coding activity)
@@ -91,51 +75,3 @@ permalink: pretty
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
-
-
-# minify
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
-
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
-
-# Build settings
-plugins:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-menus
-
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-destination: ./build
